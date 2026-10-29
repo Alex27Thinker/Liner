@@ -1,0 +1,13 @@
+# Local data: the SQLite file holds cached MusicBrainz responses and the graph
+data/
+*.sqlite
+*.sqlite-journal
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
